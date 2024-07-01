@@ -25,7 +25,7 @@ import './App.css';
 import TopBar from "./components/TopBar";
 import {Route, Routes} from "react-router";
 import Home from "./components/Home";
-import Chatroom from "./components/Chatroom";
+import Chatroom from "./components/ChatRoom";
 
 function App() {
   return (
