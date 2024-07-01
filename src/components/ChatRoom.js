@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {BaseUrl} from "../consistents";
+import {BaseURL} from "../consistents";
 import axios from "axios";
 
 function Chatroom(props) {
@@ -8,7 +8,7 @@ function Chatroom(props) {
         let config = {
             method: 'get',
             maxBodyLength: Infinity,
-            url: BaseUrl+ "message/chatroom/",
+            url: BaseURL+ "message/chatroom/",
             headers: {}
         };
 
