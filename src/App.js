@@ -26,6 +26,8 @@ import TopBar from "./components/TopBar";
 import {Route, Routes} from "react-router";
 import Home from "./components/Home";
 import Chatroom from "./components/ChatRoom";
+import NumberSumUp from "./components/NumberSumUp";
+
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/chatroom" element={<Chatroom/>}/>
+            <Route path="/sumupnum" element={<NumberSumUp/>}/>
         </Routes>
         {/*<Chatroom/>*/}
       {/*<button classRoom={"btn btn-primary"}>*/}
