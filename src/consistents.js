@@ -1,1 +1,1 @@
-export const BaseURL = 'https://message-eta-weld.vercel.app/' //const BaseURL
+export const BaseURL = 'https://message-eta-weld.vercel.app' //const BaseURL
