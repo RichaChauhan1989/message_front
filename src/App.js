@@ -27,6 +27,7 @@ import {Route, Routes} from "react-router";
 import Home from "./components/Home";
 import Chatroom from "./components/ChatRoom";
 import NumberSumUp from "./components/NumberSumUp";
+import Login from "./components/Login";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/chatroom" element={<Chatroom/>}/>
             <Route path="/sumupnum" element={<NumberSumUp/>}/>
+            <Route path="login" element={<Login/>}/>
         </Routes>
         {/*<Chatroom/>*/}
       {/*<button classRoom={"btn btn-primary"}>*/}
